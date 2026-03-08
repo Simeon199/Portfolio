@@ -5,10 +5,10 @@
         "navbarTitleThird": "Projekte"
     },
     "personPresentation": {
-        "frontendTitle": "Frontend Entwickler",
+        "frontendTitle": "Fullstack Entwickler",
         "buttonContentOne": "Meine Projekte",
         "buttonContentTwo": "Kontakt",
-        "sliderContentOne": "Frontend Entwickler",
+        "sliderContentOne": "Fullstack Entwickler",
         "sliderContentTwo": "Sitz in Rust",
         "sliderContentThree": "Verfügbar für Präsenzarbeit",
         "sliderContentFour": "Verfügbar für Remote-Arbeit"
@@ -16,7 +16,7 @@
     "aboutMe": {
         "h2First": "Wer ich bin",
         "h2Second": "Über Mich",
-        "spanFirst": "Als Frontend-Developer aus Rust begeistere ich mich für die Entwicklung ansprechender und intuitiver Webanwendungen.",
+        "spanFirst": "Als Fullstack-Developer aus Rust begeistere ich mich für die Entwicklung ansprechender und intuitiver Webanwendungen.",
         "spanSecond": "Ich bin sowohl vor Ort als auch Remote einsatzbereit – je nach Anforderung.",
         "spanThird": "Ich lege Wert darauf, mich ständig weiterzuentwickeln, neue Herausforderungen anzunehmen und Ideen in funktionierende und benutzerfreundliche Produkte umzusetzen.",
         "spanFourth": "Ich freue mich auf den Austausch mit Ihnen – vielleicht ergibt sich ja ein spannendes Projekt!"
@@ -26,7 +26,7 @@
         "h2Second": "Fähigkeiten",
         "h3First": "Ihnen fehlt",
         "h3Second": "eine Fähigkeit?",
-        "spanFirst": "In meinen Projekten habe ich mit verschiedenen Frontend-Technologien gearbeitet und immer wieder neue Konzepte kennengelernt. Da sich die Webentwicklung ständig weiterentwickelt, bleibe ich neugierig und offen für neue Tools und Methoden.",
+        "spanFirst": "In meinen Projekten habe ich mit verschiedenen Technologien gearbeitet und immer wieder neue Konzepte kennengelernt. Da sich die Webentwicklung ständig weiterentwickelt, bleibe ich neugierig und offen für neue Tools und Methoden.",
         "spanSecond": "Lassen Sie es mich wissen! Ich bin immer offen dafür, Neues zu lernen und meinen Horizont zu erweitern.",
         "buttonContent": "Zum Gespräch"
     },
@@ -142,7 +142,7 @@
         "h2First": "Kontakt",
         "h2Second": "Lassen Sie uns zusammenarbeiten",
         "h2Third": "Sie benötigen Hilfe bei einem Problem?",
-        "spanFirst": "Nutzen Sie gerne das Kontaktformular, um mir eine Nachricht zu senden. Ich freue mich darauf, mehr über Ihre Ideen zu erfahren und Ihr Projekt zu unterstützen. Benötigen Sie Unterstützung im Frontend-Bereich?",
+        "spanFirst": "Nutzen Sie gerne das Kontaktformular, um mir eine Nachricht zu senden. Ich freue mich darauf, mehr über Ihre Ideen zu erfahren und Ihr Projekt zu unterstützen. Benötigen Sie Unterstützung im Fullstack-Bereich?",
         "spanSecond": "Lassen Sie uns gerne darüber sprechen!"
     },
     "contactFormular": {

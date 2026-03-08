@@ -44,7 +44,7 @@ export class PersonPresentationComponent {
   });
   }
 
-  @HostListener('window: resize', ['$event'])
+  @HostListener('window:resize')
   onResize() {
     this.checkScreenSize();
   }

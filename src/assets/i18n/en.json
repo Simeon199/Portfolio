@@ -5,10 +5,10 @@
         "navbarTitleThird": "Projects"
     },
     "personPresentation": {
-        "frontendTitle": "Frontend Developer",
+        "frontendTitle": "Fullstack Developer",
         "buttonContentOne": "Check My Work",
         "buttonContentTwo": "Contact Me",
-        "sliderContentOne": "Frontend Developer",
+        "sliderContentOne": "Fullstack Developer",
         "sliderContentTwo": "Based in Rust",
         "sliderContentThree": "Open for on-site work",
         "sliderContentFour": "Available for remote work"
@@ -16,7 +16,7 @@
     "aboutMe": {
         "h2First": "Who I am",
         "h2Second": "About Me",
-        "spanFirst": "As a frontend developer from Rust, I am passionate about developing appealing web applications.",
+        "spanFirst": "As a fullstack developer from Rust, I am passionate about developing appealing web applications.",
         "spanSecond": "I am available both on site and remotely - depending on requirements.",
         "spanThird": "I attach great importance to constantly developing myself, taking on new challenges and turning ideas into functioning and user-friendly products.",
         "spanFourth": "I look forward to exchanging ideas with you - perhaps an exciting project will arise!"
@@ -26,7 +26,7 @@
         "h2Second": "Skill Set",
         "h3First": "Are you missing a",
         "h3Second": "specific skill?",
-        "spanFirst": "In my projects, I have worked with various front-end technologies and have continuously learned new concepts. As web development is constantly evolving, I remain curious and open to new tools and methods.",
+        "spanFirst": "In my projects, I have worked with various technologies and have continuously learned new concepts. As web development is constantly evolving, I remain curious and open to new tools and methods.",
         "spanSecond": "Let me know! I'm always open to learning new things and broadening my horizons.",
         "buttonContent": "Let's Talk"
     },
@@ -142,7 +142,7 @@
         "h2First": "Contact",
         "h2Second": "Let's work together",
         "h2Third": "Got a problem to solve?",
-        "spanFirst": "Please feel free to use the contact form to send me a message. I look forward to learning more about your ideas and supporting your project. Do you need support in the frontend area?",
+        "spanFirst": "Please feel free to use the contact form to send me a message. I look forward to learning more about your ideas and supporting your project. Do you need support in the fullstack area?",
         "spanSecond": "Let's talk about it!"
     },
     "contactFormular": {
