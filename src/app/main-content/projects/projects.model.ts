@@ -20,5 +20,16 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+    },
+    Coderr: {
+        title: string,
+        projectImageSource: string,
+        description: string,
+        technologyList: string[];
+        technologyImageIcons: string[];
+        projectIndex: number;
+        projectIndexAsString: string;
+        projectLink: string;
+        gitHubLink: string;
     }
 }

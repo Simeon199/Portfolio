@@ -33,5 +33,22 @@ export const projectsData: projectsModel = {
         projectIndexAsString: '02',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/el_pollo_loco'
+    },
+    Coderr: {
+        title: 'Coderr',
+        projectImageSource: '../../../../assets/img/coderr.png',
+        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        technologyImageIcons: [
+            '../../../../assets/img/html-technology.svg',
+            '|',
+            '../../../../assets/img/css-technology.svg',
+            '|',
+            '../../../../assets/img/javascript-technology.svg'
+        ],
+        projectIndex: 1,
+        projectIndexAsString: '02',
+        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
+        gitHubLink: 'https://github.com/Simeon199/el_pollo_loco'
     }
 }

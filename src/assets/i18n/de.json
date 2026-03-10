@@ -81,9 +81,9 @@
             "projectLink": "https://el-pollo-loco.simon-kiesner.de/index.html",
             "gitHubLink": "https://github.com/Simeon199/el_pollo_loco"
         },
-        "daBubble": {
-            "title": "DABubble",
-            "projectImageSource": "../../../../assets/img/dabubble.png",
+        "coderr": {
+            "title": "Coderr",
+            "projectImageSource": "../../../../assets/img/coderr.png",
             "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
             "technologyList": [
                 "Angular",
@@ -123,7 +123,7 @@
         "whatIsProjectAbout": "Worum geht es in diesem Problem?",
         "content": "In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!"
     },
-    "daBubble": {
+    "Coderr": {
         "whatIsProjectAbout": "Worum geht es in diesem Problem?",
         "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
     },
