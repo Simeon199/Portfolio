@@ -112,6 +112,68 @@
             "projectLink": "Not found",
             "gitHubLink": "Not found"
         },
+        "quizly": {
+            "title": "Quizly",
+            "projectImageSource": "../../../../assets/img/coderr.png",
+            "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
+            "technologyList": [
+                "Angular",
+                "|",
+                "TypeScript",
+                "|",
+                "Firebase",
+                "|",
+                "SCSS",
+                "|",
+                "HTML"
+            ],
+            "technologyImageIcons": [
+                "../../../../assets/img/angular-technology.svg",
+                "|",
+                "../../../../assets/img/typescript-technology.svg",
+                "|",
+                "../../../../assets/img/firebase-technology.svg",
+                "|",
+                "../../../../assets/img/css-technology.svg",
+                "|",
+                "../../../../assets/img/html-technology.svg"
+            ],
+            "projectIndex": 3,
+            "projectIndexAsString": "04",
+            "projectLink": "Not found",
+            "gitHubLink": "Not found"
+        },
+        "videoflix": {
+            "title": "Videoflix",
+            "projectImageSource": "../../../../assets/img/coderr.png",
+            "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
+            "technologyList": [
+                "Angular",
+                "|",
+                "TypeScript",
+                "|",
+                "Firebase",
+                "|",
+                "SCSS",
+                "|",
+                "HTML"
+            ],
+            "technologyImageIcons": [
+                "../../../../assets/img/angular-technology.svg",
+                "|",
+                "../../../../assets/img/typescript-technology.svg",
+                "|",
+                "../../../../assets/img/firebase-technology.svg",
+                "|",
+                "../../../../assets/img/css-technology.svg",
+                "|",
+                "../../../../assets/img/html-technology.svg"
+            ],
+            "projectIndex": 4,
+            "projectIndexAsString": "05",
+            "projectLink": "Not found",
+            "gitHubLink": "Not found"
+        },
         "whatIsProjectAbout": "What's this project about?",
         "nextProject": "Next Project"
     },
@@ -124,6 +186,14 @@
         "content": "In this jump-and-run game, which was realized with object-oriented programming, Pepe Peligroso fights against a group of crazy chickens. Join him and support him in this adventure!"
     },
     "coderr": {
+        "whatIsProjectAbout": "What's this project about?",
+        "content": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier."
+    },
+    "quizly": {
+        "whatIsProjectAbout": "What's this project about?",
+        "content": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier."
+    },
+    "videoflix": {
         "whatIsProjectAbout": "What's this project about?",
         "content": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier."
     },

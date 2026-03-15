@@ -34,7 +34,7 @@ export const projectsData: projectsModel = {
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/el_pollo_loco'
     },
-    Coderr: {
+    coderr: {
         title: 'Coderr',
         projectImageSource: '../../../../assets/img/coderr.png',
         description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
@@ -49,6 +49,40 @@ export const projectsData: projectsModel = {
         projectIndex: 1,
         projectIndexAsString: '02',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/el_pollo_loco'
+        gitHubLink: 'https://github.com/Simeon199/Coderr'
+    },
+    quizly: {
+        title: 'Quizly',
+        projectImageSource: '../../../../assets/img/quizly.png',
+        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        technologyImageIcons: [
+            '../../../../assets/img/html-technology.svg',
+            '|',
+            '../../../../assets/img/css-technology.svg',
+            '|',
+            '../../../../assets/img/javascript-technology.svg'
+        ],
+        projectIndex: 1,
+        projectIndexAsString: '02',
+        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
+        gitHubLink: 'https://github.com/Simeon199/Quizly'
+    },
+    videoflix: {
+        title: 'Videoflix',
+        projectImageSource: '../../../../assets/img/videoflix.png',
+        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        technologyImageIcons: [
+            '../../../../assets/img/html-technology.svg',
+            '|',
+            '../../../../assets/img/css-technology.svg',
+            '|',
+            '../../../../assets/img/javascript-technology.svg'
+        ],
+        projectIndex: 1,
+        projectIndexAsString: '02',
+        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
+        gitHubLink: 'https://github.com/Simeon199/Videoflix'
     }
 }

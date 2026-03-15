@@ -112,6 +112,68 @@
             "projectLink": "Not found",
             "gitHubLink": "Not found"
         },
+        "quizly": {
+            "title": "Quizly",
+            "projectImageSource": "../../../../assets/img/coderr.png",
+            "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
+            "technologyList": [
+                "Angular",
+                "|",
+                "TypeScript",
+                "|",
+                "Firebase",
+                "|",
+                "SCSS",
+                "|",
+                "HTML"
+            ],
+            "technologyImageIcons": [
+                "../../../../assets/img/angular-technology.svg",
+                "|",
+                "../../../../assets/img/typescript-technology.svg",
+                "|",
+                "../../../../assets/img/firebase-technology.svg",
+                "|",
+                "../../../../assets/img/css-technology.svg",
+                "|",
+                "../../../../assets/img/html-technology.svg"
+            ],
+            "projectIndex": 3,
+            "projectIndexAsString": "04",
+            "projectLink": "Not found",
+            "gitHubLink": "Not found"
+        },
+        "videoflix": {
+            "title": "Videoflix",
+            "projectImageSource": "../../../../assets/img/coderr.png",
+            "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
+            "technologyList": [
+                "Angular",
+                "|",
+                "TypeScript",
+                "|",
+                "Firebase",
+                "|",
+                "SCSS",
+                "|",
+                "HTML"
+            ],
+            "technologyImageIcons": [
+                "../../../../assets/img/angular-technology.svg",
+                "|",
+                "../../../../assets/img/typescript-technology.svg",
+                "|",
+                "../../../../assets/img/firebase-technology.svg",
+                "|",
+                "../../../../assets/img/css-technology.svg",
+                "|",
+                "../../../../assets/img/html-technology.svg"
+            ],
+            "projectIndex": 4,
+            "projectIndexAsString": "05",
+            "projectLink": "Not found",
+            "gitHubLink": "Not found"
+        },
         "whatIsProjectAbout": "Worum geht es in diesem Projekt?",
         "nextProject": "Nächstes Projekt"
     },
@@ -123,7 +185,15 @@
         "whatIsProjectAbout": "Worum geht es in diesem Problem?",
         "content": "In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!"
     },
-    "Coderr": {
+    "coderr": {
+        "whatIsProjectAbout": "Worum geht es in diesem Problem?",
+        "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
+    },
+    "quizly": {
+        "whatIsProjectAbout": "Worum geht es in diesem Problem?",
+        "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
+    },
+    "videoflix": {
         "whatIsProjectAbout": "Worum geht es in diesem Problem?",
         "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
     },
