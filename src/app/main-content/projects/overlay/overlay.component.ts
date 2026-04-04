@@ -78,8 +78,12 @@ export class OverlayComponent {
       return 'Join';
     } else if (key == 'elPolloLoco') {
       return 'El Pollo Loco';
-    } else if (key == 'daBubble') {
-      return 'DABubble';
+    } else if(key == 'coderr'){
+      return 'Coderr';
+    } else if(key == 'quizly'){
+      return 'Quizly'
+    } else if(key == 'videoflix'){
+      return 'Videoflix'
     } else {
       return 'Error';
     }
@@ -90,8 +94,12 @@ export class OverlayComponent {
       return 'join';
     } else if (key == 'El Pollo Loco') {
       return 'elPolloLoco';
-    } else if (key == 'DABubble') {
-      return 'daBubble';
+    } else if (key == 'Coderr') {
+      return 'coderr';
+    } else if (key == 'Quizly'){
+      return 'quizly';
+    } else if (key == 'Videoflix'){
+      return 'videoflix';
     } else {
       return 'Error';
     }
@@ -107,7 +115,7 @@ export class OverlayComponent {
       let convertedKey = this.projectNameConverter(key);
       if (convertedKey == title) {
         this.currentIndex = this.keyValues.indexOf(key);
-        if (this.currentIndex < 1) { // ehemals this.currentIndex < 2
+        if (this.currentIndex < this.keyValues.length - 1) { 
           this.nextIndex = this.currentIndex + 1;
         } else {
           this.nextIndex = 0;
@@ -127,7 +135,7 @@ export class OverlayComponent {
       currentProjectOpened: this.projectValues[this.nextIndex].title,
       currentProjectOpenedDescription: this.projectValues[this.nextIndex].description,
       currentProjectOpenedImageSrc: this.projectValues[this.nextIndex].projectImageSource,
-      currentProjectOpenedTechnologies: this.projectValues[this.nextIndex].technologies,
+      currentProjectOpenedTechnologies: this.projectValues[this.nextIndex].technologyList,
       currentHoveredProjectIndex: this.projectValues[this.nextIndex].projectIndexAsString,
       currentProjectOpenedGitHubLink: this.projectValues[this.nextIndex].gitHubLink,
       currentProjectOpenedProjectLink: this.projectValues[this.nextIndex].projectLink
