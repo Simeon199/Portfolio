@@ -129,5 +129,6 @@ export class ProjectsComponent {
 
   closeOverlay() {
     this.isOverlayVisible = false;
+    this.sharedService.manageHideShowOverflow(false);
   }
 }
