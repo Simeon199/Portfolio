@@ -16,7 +16,7 @@ import { SharedService } from '../../../shared.service';
 })
 export class OverlayComponent {
   @Input() projectsData: projectsModel = projectsData;
-  @Input() allProjectsListed: any;
+  @Input() Listed: any;
   @Input() currentProjectOpened: string = '';
   @Input() index: string = '';
   @Input() title: string = '';

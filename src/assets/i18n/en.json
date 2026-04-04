@@ -114,7 +114,7 @@
         },
         "quizly": {
             "title": "Quizly",
-            "projectImageSource": "../../../../assets/img/coderr.png",
+            "projectImageSource": "../../../../assets/img/quizly.png",
             "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
             "technologyList": [
                 "Angular",
@@ -145,7 +145,7 @@
         },
         "videoflix": {
             "title": "Videoflix",
-            "projectImageSource": "../../../../assets/img/coderr.png",
+            "projectImageSource": "../../../../assets/img/videoflix.png",
             "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
             "technologyList": [
                 "Angular",

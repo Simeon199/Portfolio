@@ -114,7 +114,7 @@
         },
         "quizly": {
             "title": "Quizly",
-            "projectImageSource": "../../../../assets/img/coderr.png",
+            "projectImageSource": "../../../../assets/img/quizly.png",
             "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
             "technologyList": [
                 "Angular",
@@ -145,7 +145,7 @@
         },
         "videoflix": {
             "title": "Videoflix",
-            "projectImageSource": "../../../../assets/img/coderr.png",
+            "projectImageSource": "../../../../assets/img/videoflix.png",
             "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
             "technologyList": [
                 "Angular",

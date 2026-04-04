@@ -46,8 +46,8 @@ export const projectsData: projectsModel = {
             '|',
             '../../../../assets/img/javascript-technology.svg'
         ],
-        projectIndex: 1,
-        projectIndexAsString: '02',
+        projectIndex: 2,
+        projectIndexAsString: '03',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Coderr'
     },
@@ -63,8 +63,8 @@ export const projectsData: projectsModel = {
             '|',
             '../../../../assets/img/javascript-technology.svg'
         ],
-        projectIndex: 1,
-        projectIndexAsString: '02',
+        projectIndex: 3,
+        projectIndexAsString: '04',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Quizly'
     },
@@ -80,8 +80,8 @@ export const projectsData: projectsModel = {
             '|',
             '../../../../assets/img/javascript-technology.svg'
         ],
-        projectIndex: 1,
-        projectIndexAsString: '02',
+        projectIndex: 4,
+        projectIndexAsString: '05',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Videoflix'
     }
