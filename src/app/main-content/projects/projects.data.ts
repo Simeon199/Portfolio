@@ -34,6 +34,23 @@ export const projectsData: projectsModel = {
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/el_pollo_loco'
     },
+    kanmind: {
+        title: 'KanMind',
+        projectImageSource: '../../../../assets/img/kanmind.png',
+        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        technologyImageIcons: [
+            '../../../../assets/img/html-technology.svg',
+            '|',
+            '../../../../assets/img/css-technology.svg',
+            '|',
+            '../../../../assets/img/javascript-technology.svg'
+        ],
+        projectIndex: 3,
+        projectIndexAsString: '04',
+        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
+        gitHubLink: 'https://github.com/Simeon199/KanMind'
+    },
     coderr: {
         title: 'Coderr',
         projectImageSource: '../../../../assets/img/coderr.png',
@@ -50,23 +67,6 @@ export const projectsData: projectsModel = {
         projectIndexAsString: '03',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Coderr'
-    },
-    quizly: {
-        title: 'Quizly',
-        projectImageSource: '../../../../assets/img/quizly.png',
-        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
-        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
-        technologyImageIcons: [
-            '../../../../assets/img/html-technology.svg',
-            '|',
-            '../../../../assets/img/css-technology.svg',
-            '|',
-            '../../../../assets/img/javascript-technology.svg'
-        ],
-        projectIndex: 3,
-        projectIndexAsString: '04',
-        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/Quizly'
     },
     videoflix: {
         title: 'Videoflix',

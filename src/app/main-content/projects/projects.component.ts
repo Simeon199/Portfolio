@@ -93,9 +93,9 @@ export class ProjectsComponent {
     this.hoveredProjectLocation = "align-self: flex-start";
     } else if (currentHoveredProject == "El Pollo Loco") {
       this.hoveredProjectLocation = "align-self: center";
-    } else if (currentHoveredProject == "Coderr") {
+    } else if (currentHoveredProject == "KanMind") {
       this.hoveredProjectLocation = "align-self: center";
-    } else if (currentHoveredProject == "Quizly") {
+    } else if (currentHoveredProject == "Coderr") {
       this.hoveredProjectLocation = "align-self: flex-end";
     } else if (currentHoveredProject == "Videoflix") {
       this.hoveredProjectLocation = "align-self: flex-end";

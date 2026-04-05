@@ -21,7 +21,7 @@ export interface projectsModel {
         projectLink: string;
         gitHubLink: string;
     },
-    coderr: {
+    kanmind: {
         title: string,
         projectImageSource: string,
         description: string,
@@ -32,7 +32,7 @@ export interface projectsModel {
         projectLink: string;
         gitHubLink: string;
     },
-    quizly: {
+    coderr: {
         title: string,
         projectImageSource: string,
         description: string,

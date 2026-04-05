@@ -80,8 +80,8 @@ export class OverlayComponent {
       return 'El Pollo Loco';
     } else if(key == 'coderr'){
       return 'Coderr';
-    } else if(key == 'quizly'){
-      return 'Quizly';
+    } else if(key == 'kanmind'){
+      return 'KanMind';
     } else if(key == 'videoflix'){
       return 'Videoflix';
     } else {
@@ -94,10 +94,10 @@ export class OverlayComponent {
       return 'join';
     } else if (key == 'El Pollo Loco') {
       return 'elPolloLoco';
+    } else if (key == 'KanMind'){
+      return 'kanmind'; 
     } else if (key == 'Coderr') {
       return 'coderr';
-    } else if (key == 'Quizly'){
-      return 'quizly';
     } else if (key == 'Videoflix'){
       return 'videoflix';
     } else {
