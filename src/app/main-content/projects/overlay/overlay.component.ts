@@ -81,9 +81,9 @@ export class OverlayComponent {
     } else if(key == 'coderr'){
       return 'Coderr';
     } else if(key == 'quizly'){
-      return 'Quizly'
+      return 'Quizly';
     } else if(key == 'videoflix'){
-      return 'Videoflix'
+      return 'Videoflix';
     } else {
       return 'Error';
     }

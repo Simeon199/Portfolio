@@ -45,6 +45,13 @@ section {
     width: 100%;
 }
 
+.choose-technology {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 32px;
+}
+
 .single-technology {
     display: flex;
     flex-direction: column;

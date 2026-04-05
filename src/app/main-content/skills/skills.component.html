@@ -15,6 +15,10 @@
                 </a>
             </div>
         </div>
+        <div class="choose-technology">
+            <app-button-style>Frontend</app-button-style>
+            <app-button-style>Backend</app-button-style>
+        </div>
         <div class="all-skills-listed-section">
             <div class="single-technology" *ngFor="let singleTechnology of getTechnologyListValues()">
                 <img src={{singleTechnology.imageSrc}} alt="imgSrc">
