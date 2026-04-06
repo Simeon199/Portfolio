@@ -46,8 +46,8 @@ export const projectsData: projectsModel = {
             '|',
             '../../../../assets/img/javascript-technology.svg'
         ],
-        projectIndex: 3,
-        projectIndexAsString: '04',
+        projectIndex: 2,
+        projectIndexAsString: '03',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/KanMind'
     },
@@ -63,8 +63,8 @@ export const projectsData: projectsModel = {
             '|',
             '../../../../assets/img/javascript-technology.svg'
         ],
-        projectIndex: 2,
-        projectIndexAsString: '03',
+        projectIndex: 3,
+        projectIndexAsString: '04',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Coderr'
     },
