@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ButtonStyleComponent } from '../shared/button-style/button-style.component';
+import { TechnologyButtonStyleComponent } from '../shared/technology-button-style/technology-button-style.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { LanguageService } from '../../language.service';
 import { CommonModule } from '@angular/common';
@@ -12,6 +13,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [
     ButtonStyleComponent,
+    TechnologyButtonStyleComponent,
     TranslateModule,
     CommonModule,
     RouterLink
