@@ -84,7 +84,7 @@
         "kanmind": {
             "title": "KanMind",
             "projectImageSource": "../../../../assets/img/quizly.png",
-            "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
+            "description": "Dies ist ein mit Django und dem Django REST Framework erstelltes Backend, das speziell für die Aufgabenverwaltung auf Kanban-Boards entwickelt wurde. Es unterstützt CRUD-Operationen in vollem Umfang und entspricht dem Python-Äquivalent des Backends der KanMind-App. Das entsprechende Frontend wurde durch das Team der Developer Akademie realisiert.",
             "technologyList": [
                 "Angular",
                 "|",
@@ -115,7 +115,7 @@
         "coderr": {
             "title": "Coderr",
             "projectImageSource": "../../../../assets/img/coderr.png",
-            "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
+            "description": "Bei Coderr handelt es sich um ein Backend für eine Plattform für freiberufliche Entwickler, welches als kleiner Fiverr-Clon konzipiert wurde. Es baut auf einem bestehenden Frontend auf, das durch das Team der Developer Akademie zur Verfügung gestellt wurde und unterstützt CRUD-Operationen in vollem Umfang.",
             "technologyList": [
                 "Angular",
                 "|",
@@ -146,7 +146,7 @@
         "videoflix": {
             "title": "Videoflix",
             "projectImageSource": "../../../../assets/img/videoflix.png",
-            "description": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht.",
+            "description": "Bei diesem Projekt handelt es sich um ein mit Django REST Framework erstelltes Backend für Videostreaming. Es bietet Benutzerauthentifizierung, Video-Upload mit automatischer HLS-Konvertierung sowie adaptives Streaming mit variabler Bitrate in verschiedenen Auflösungen. Das entsprechende Frontend wurde durch das Team der Developer Akademie bereitgestellt.",
             "technologyList": [
                 "Angular",
                 "|",
