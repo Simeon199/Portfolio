@@ -20,6 +20,14 @@ button {
     position: relative;
 }
 
+button.active {
+    border-color: $standardGreen;
+}
+
+button.active p {
+    color: $standardGreen;
+}
+
 button:hover {
     border: 1px solid $standardGreen;
 }

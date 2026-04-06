@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-technology-button-style',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
   templateUrl: './technology-button-style.component.html',
   styleUrl: './technology-button-style.component.scss'
 })
-export class TechnologyButtonStyleComponent {}
+export class TechnologyButtonStyleComponent {
+  @Input() isActive: boolean = false;
+  @Output() select = new EventEmitter<void>();
+
+  onClick(): void {
+    this.select.emit();
+  }
+}

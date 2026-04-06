@@ -1,8 +1,4 @@
 <section>
-    <!-- <div class="choose-technology">
-        <app-button-style>Frontend</app-button-style>
-        <app-button-style>Backend</app-button-style>
-    </div> -->
     <div class="skills-section" id="skills-section" data-aos="fade-left">
         <div class="my-skillset-description">
             <h2>{{"skillSet.h2First" | translate}}</h2>
@@ -21,8 +17,16 @@
         </div>
         <div class="content-wrapper">
              <div class="choose-technology">
-                <app-technology-button-style>Frontend</app-technology-button-style>
-                <app-technology-button-style>Backend</app-technology-button-style>
+                <app-technology-button-style
+                  [isActive]="activeTechnology === 'Frontend'"
+                  (select)="selectTechnology('Frontend')">
+                  Frontend
+                </app-technology-button-style>
+                <app-technology-button-style
+                  [isActive]="activeTechnology === 'Backend'"
+                  (select)="selectTechnology('Backend')">
+                  Backend
+                </app-technology-button-style>
             </div>
             <div class="all-skills-listed-section">
                 <div class="single-technology" *ngFor="let singleTechnology of getTechnologyListValues()">

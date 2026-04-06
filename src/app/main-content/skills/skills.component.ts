@@ -28,6 +28,7 @@ export class SkillsComponent {
   technologyListData: technologyListModel = technologyListData;
   isHovered: boolean = false;
   styleValueHovered: string | any = 'block';
+  activeTechnology: string = 'Frontend';
 
   constructor(private languageService: LanguageService) {
     this.languageService.currentLanguage$.subscribe(lang => {
@@ -42,6 +43,10 @@ export class SkillsComponent {
     } else {
       this.styleValueHovered = 'block';
     }
+  }
+
+  selectTechnology(technology: string) {
+    this.activeTechnology = technology;
   }
 
   getTechnologyListKeys() {
