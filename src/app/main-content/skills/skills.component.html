@@ -33,7 +33,7 @@
                     <img src={{singleTechnology.imageSrc}} alt="imgSrc">
                     <p>{{singleTechnology.name}}</p>
                 </div>
-                <div class="growth-mindset-wrapper" (mouseenter)="setHovered(true)" (mouseleave)="setHovered(false)">
+                <div *ngIf="activeTechnology === 'Frontend'" class="growth-mindset-wrapper" (mouseenter)="setHovered(true)" (mouseleave)="setHovered(false)">
                     <div class="growth-mindset-unhovered">
                         <img [ngStyle]="{'transform': isHovered ? 'scale(1.125)': 'none'}"
                             src="../../../../assets/img/growth-mindset-green.svg" alt="growth-mindset-green">

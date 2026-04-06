@@ -5,7 +5,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { LanguageService } from '../../language.service';
 import { CommonModule } from '@angular/common';
 import { technologyListData } from './technology_list_data';
-import { technologyListModel } from './technology_list_model';
+import { technologyListModel, TechnologyItem } from './technology_list_model';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -28,7 +28,7 @@ export class SkillsComponent {
   technologyListData: technologyListModel = technologyListData;
   isHovered: boolean = false;
   styleValueHovered: string | any = 'block';
-  activeTechnology: string = 'Frontend';
+  activeTechnology: 'Frontend' | 'Backend' = 'Frontend';
 
   constructor(private languageService: LanguageService) {
     this.languageService.currentLanguage$.subscribe(lang => {
@@ -45,7 +45,7 @@ export class SkillsComponent {
     }
   }
 
-  selectTechnology(technology: string) {
+  selectTechnology(technology: 'Frontend' | 'Backend') {
     this.activeTechnology = technology;
   }
 
@@ -53,7 +53,8 @@ export class SkillsComponent {
     return Object.keys(technologyListData);
   }
 
-  getTechnologyListValues() {
-    return Object.values(technologyListData);
+  getTechnologyListValues(): TechnologyItem[] {
+    const key = this.activeTechnology.toLowerCase() as keyof technologyListModel;
+    return this.technologyListData[key];
   }
 }
