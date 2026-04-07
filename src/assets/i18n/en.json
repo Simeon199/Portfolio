@@ -84,7 +84,7 @@
         "kanmind": {
             "title": "KanMind",
             "projectImageSource": "../../../../assets/img/quizly.png",
-            "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
+            "description": "This is a backend built using Django and the Django REST Framework, specifically designed for task management on Kanban boards. It fully supports CRUD operations and corresponds to the Python equivalent of the KanMind app’s backend. The corresponding frontend was developed by the Developer Academy team.",
             "technologyList": [
                 "Angular",
                 "|",
@@ -115,7 +115,7 @@
         "coderr": {
             "title": "Coderr",
             "projectImageSource": "../../../../assets/img/coderr.png",
-            "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
+            "description": "Coderr is a backend for a platform for freelance developers, designed as a small Fiverr clone. It builds on an existing frontend provided by the Developer Academy team and fully supports CRUD operations.",
             "technologyList": [
                 "Angular",
                 "|",
@@ -146,7 +146,7 @@
         "videoflix": {
             "title": "Videoflix",
             "projectImageSource": "../../../../assets/img/videoflix.png",
-            "description": "Based on Slack, this app offers a user-friendly platform for optimizing team communication. Real-time messages and a structured channel organization make communication within the team noticeably easier.",
+            "description": "This project is a backend for video streaming built using the Django REST Framework. It offers user authentication, video upload with automatic HLS conversion, and adaptive streaming with variable bitrates in various resolutions. The corresponding frontend was provided by the Developer Academy team.",
             "technologyList": [
                 "Angular",
                 "|",

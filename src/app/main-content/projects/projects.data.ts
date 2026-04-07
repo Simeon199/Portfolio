@@ -37,61 +37,71 @@ export const projectsData: projectsModel = {
     kanmind: {
         title: 'KanMind',
         projectImageSource: '../../../../assets/img/kanmind.png',
-        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
-        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        description: 'Dies ist ein mit Django und dem Django REST Framework erstelltes Backend, das speziell für die Aufgabenverwaltung auf Kanban-Boards entwickelt wurde. Es unterstützt CRUD-Operationen in vollem Umfang und entspricht dem Python-Äquivalent des Backends der KanMind-App. Das entsprechende Frontend wurde durch das Team der Developer Akademie realisiert.',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript', '|', 'Django'],
         technologyImageIcons: [
             '../../../../assets/img/html-technology.svg',
             '|',
             '../../../../assets/img/css-technology.svg',
             '|',
-            '../../../../assets/img/javascript-technology.svg'
+            '../../../../assets/img/javascript-technology.svg',
+            '|',
+            '../../../../assets/img/django.svg'
         ],
         projectIndex: 2,
         projectIndexAsString: '03',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/KanMind',
         isBackend: true,
-        frontendGitHubLink: 'https://github.com/Simeon199/KanMind',
-        backendGitHubLink: 'https://github.com/Simeon199/KanMind-backend'
+        frontendGitHubLink: 'https://github.com/Developer-Akademie-Backendkurs/project.KanMind',
+        backendGitHubLink: 'https://github.com/Simeon199/KanMind'
     },
     coderr: {
         title: 'Coderr',
         projectImageSource: '../../../../assets/img/coderr.png',
-        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
-        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        description: 'Bei Coderr handelt es sich um ein Backend für eine Plattform für freiberufliche Entwickler, welches als kleiner Fiverr-Clon konzipiert wurde. Es baut auf einem bestehenden Frontend auf, das durch das Team der Developer Akademie zur Verfügung gestellt wurde und unterstützt CRUD-Operationen in vollem Umfang.',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript', '|', 'Django'],
         technologyImageIcons: [
             '../../../../assets/img/html-technology.svg',
             '|',
             '../../../../assets/img/css-technology.svg',
             '|',
-            '../../../../assets/img/javascript-technology.svg'
+            '../../../../assets/img/javascript-technology.svg',
+            '|',
+            '../../../../assets/img/django.svg'
         ],
         projectIndex: 3,
         projectIndexAsString: '04',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Coderr',
         isBackend: true,
-        frontendGitHubLink: 'https://github.com/Simeon199/Coderr',
-        backendGitHubLink: 'https://github.com/Simeon199/Coderr-backend'
+        frontendGitHubLink: 'https://github.com/Developer-Akademie-Backendkurs/project.Coderr',
+        backendGitHubLink: 'https://github.com/Simeon199/Coderr'
     },
     videoflix: {
         title: 'Videoflix',
         projectImageSource: '../../../../assets/img/videoflix.png',
-        description: 'In diesem Jump-and-Run-Spiel, das mit objektorientierter Programmierung realisiert wurde, kämpft Pepe Peligroso gegen eine Gruppe verrückter Hühner. Seien Sie dabei und unterstützen Sie ihn bei diesem Abenteuer!',
-        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript'],
+        description: 'Bei diesem Projekt handelt es sich um ein mit Django REST Framework erstelltes Backend für Videostreaming. Es bietet Benutzerauthentifizierung, Video-Upload mit automatischer HLS-Konvertierung sowie adaptives Streaming mit variabler Bitrate in verschiedenen Auflösungen. Das entsprechende Frontend wurde durch das Team der Developer Akademie bereitgestellt.',
+        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript', '|', 'Django', '|', 'PostgreSQL', '|', 'Redis'],
         technologyImageIcons: [
             '../../../../assets/img/html-technology.svg',
             '|',
             '../../../../assets/img/css-technology.svg',
             '|',
-            '../../../../assets/img/javascript-technology.svg'
+            '../../../../assets/img/javascript-technology.svg',
+            '|',
+            '../../../../assets/img/django.svg',
+            '|',
+            '../../../../assets/img/postgreSQL.svg',
+            '|',
+            '../../../../assets/img/redis.svg'
         ],
         projectIndex: 4,
         projectIndexAsString: '05',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
         gitHubLink: 'https://github.com/Simeon199/Videoflix',
         isBackend: true,
-        frontendGitHubLink: 'https://github.com/Simeon199/Videoflix',
-        backendGitHubLink: 'https://github.com/Simeon199/Videoflix-backend'
+        frontendGitHubLink: 'https://github.com/Developer-Akademie-Backendkurs/project.Videoflix',
+        backendGitHubLink: 'https://github.com/Simeon199/Videoflix'
     }
 }
