@@ -36,6 +36,9 @@ export class ProjectsComponent {
   currentProjectOpenedIndexAsString: string = '';
   currentProjectOpenedGitHubLink: string = '';
   currentProjectOpenedProjectLink: string = '';
+  currentProjectOpenedIsBackend: boolean = false;
+  currentProjectOpenedFrontendGitHubLink: string = '';
+  currentProjectOpenedBackendGitHubLink: string = '';
   isOverlayVisible = false;
   projectsData = projectsData;
   projectsArray = Object.values(this.projectsData);
@@ -56,6 +59,9 @@ export class ProjectsComponent {
     currentHoveredProjectIndex: string,
     currentProjectOpenedGitHubLink: string,
     currentProjectOpenedProjectLink: string;
+    currentProjectOpenedIsBackend: boolean;
+    currentProjectOpenedFrontendGitHubLink: string;
+    currentProjectOpenedBackendGitHubLink: string;
   }) {
     this.currentProjectOpened = updatedValues.currentProjectOpened;
     this.currentProjectOpenedDescription = updatedValues.currentProjectOpenedDescription;
@@ -64,6 +70,9 @@ export class ProjectsComponent {
     this.currentHoveredProjectIndex = updatedValues.currentHoveredProjectIndex;
     this.currentProjectOpenedGitHubLink = updatedValues.currentProjectOpenedGitHubLink;
     this.currentProjectOpenedProjectLink = updatedValues.currentProjectOpenedProjectLink;
+    this.currentProjectOpenedIsBackend = updatedValues.currentProjectOpenedIsBackend;
+    this.currentProjectOpenedFrontendGitHubLink = updatedValues.currentProjectOpenedFrontendGitHubLink;
+    this.currentProjectOpenedBackendGitHubLink = updatedValues.currentProjectOpenedBackendGitHubLink;
   }
 
   onMouseEnter(projectname: string, projectImageSource: string, projectIndex: string) {
@@ -123,6 +132,9 @@ export class ProjectsComponent {
         this.currentProjectOpenedGitHubLink = project.gitHubLink;
         this.currentProjectOpenedProjectLink = project.projectLink;
         this.currentHoveredProjectIndex = project.projectIndexAsString;
+        this.currentProjectOpenedIsBackend = project.isBackend || false;
+        this.currentProjectOpenedFrontendGitHubLink = project.frontendGitHubLink || '';
+        this.currentProjectOpenedBackendGitHubLink = project.backendGitHubLink || '';
       }
     })
   }

@@ -9,6 +9,9 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+        isBackend?: boolean;
+        frontendGitHubLink?: string;
+        backendGitHubLink?: string;
     },
     elPolloLoco: {
         title: string,
@@ -20,6 +23,9 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+        isBackend?: boolean;
+        frontendGitHubLink?: string;
+        backendGitHubLink?: string;
     },
     kanmind: {
         title: string,
@@ -31,6 +37,9 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+        isBackend?: boolean;
+        frontendGitHubLink?: string;
+        backendGitHubLink?: string;
     },
     coderr: {
         title: string,
@@ -42,6 +51,9 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+        isBackend?: boolean;
+        frontendGitHubLink?: string;
+        backendGitHubLink?: string;
     },
     videoflix: {
         title: string,
@@ -53,5 +65,8 @@ export interface projectsModel {
         projectIndexAsString: string;
         projectLink: string;
         gitHubLink: string;
+        isBackend?: boolean;
+        frontendGitHubLink?: string;
+        backendGitHubLink?: string;
     }
 }

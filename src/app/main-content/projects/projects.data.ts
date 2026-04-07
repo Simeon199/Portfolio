@@ -49,7 +49,10 @@ export const projectsData: projectsModel = {
         projectIndex: 2,
         projectIndexAsString: '03',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/KanMind'
+        gitHubLink: 'https://github.com/Simeon199/KanMind',
+        isBackend: true,
+        frontendGitHubLink: 'https://github.com/Simeon199/KanMind',
+        backendGitHubLink: 'https://github.com/Simeon199/KanMind-backend'
     },
     coderr: {
         title: 'Coderr',
@@ -66,7 +69,10 @@ export const projectsData: projectsModel = {
         projectIndex: 3,
         projectIndexAsString: '04',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/Coderr'
+        gitHubLink: 'https://github.com/Simeon199/Coderr',
+        isBackend: true,
+        frontendGitHubLink: 'https://github.com/Simeon199/Coderr',
+        backendGitHubLink: 'https://github.com/Simeon199/Coderr-backend'
     },
     videoflix: {
         title: 'Videoflix',
@@ -83,6 +89,9 @@ export const projectsData: projectsModel = {
         projectIndex: 4,
         projectIndexAsString: '05',
         projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/Videoflix'
+        gitHubLink: 'https://github.com/Simeon199/Videoflix',
+        isBackend: true,
+        frontendGitHubLink: 'https://github.com/Simeon199/Videoflix',
+        backendGitHubLink: 'https://github.com/Simeon199/Videoflix-backend'
     }
 }

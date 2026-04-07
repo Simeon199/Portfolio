@@ -25,6 +25,9 @@ export class OverlayComponent {
   @Input() imageSrc: string = '';
   @Input() gitHubLink: string = '';
   @Input() projectLink: string = '';
+  @Input() isBackend: boolean = false;
+  @Input() frontendGitHubLink: string = '';
+  @Input() backendGitHubLink: string = '';
   @Output() close = new EventEmitter<void>();
 
   @Output() updateParentVariables = new EventEmitter<{
@@ -35,6 +38,9 @@ export class OverlayComponent {
     currentHoveredProjectIndex: string;
     currentProjectOpenedGitHubLink: string;
     currentProjectOpenedProjectLink: string;
+    currentProjectOpenedIsBackend: boolean;
+    currentProjectOpenedFrontendGitHubLink: string;
+    currentProjectOpenedBackendGitHubLink: string;
   }>();
 
   nextIndex: number = 0
@@ -69,6 +75,9 @@ export class OverlayComponent {
     currentHoveredProjectIndex: string;
     currentProjectOpenedGitHubLink: string;
     currentProjectOpenedProjectLink: string;
+    currentProjectOpenedIsBackend: boolean;
+    currentProjectOpenedFrontendGitHubLink: string;
+    currentProjectOpenedBackendGitHubLink: string;
   }) {
     this.updateParentVariables.emit(updatedValues);
   }
@@ -138,7 +147,10 @@ export class OverlayComponent {
       currentProjectOpenedTechnologies: this.projectValues[this.nextIndex].technologyList,
       currentHoveredProjectIndex: this.projectValues[this.nextIndex].projectIndexAsString,
       currentProjectOpenedGitHubLink: this.projectValues[this.nextIndex].gitHubLink,
-      currentProjectOpenedProjectLink: this.projectValues[this.nextIndex].projectLink
+      currentProjectOpenedProjectLink: this.projectValues[this.nextIndex].projectLink,
+      currentProjectOpenedIsBackend: this.projectValues[this.nextIndex].isBackend || false,
+      currentProjectOpenedFrontendGitHubLink: this.projectValues[this.nextIndex].frontendGitHubLink || '',
+      currentProjectOpenedBackendGitHubLink: this.projectValues[this.nextIndex].backendGitHubLink || ''
     });
   }
 

@@ -4,6 +4,8 @@
             [title]="currentProjectOpened" [description]="currentProjectOpenedDescription"
             [technologies]="currentProjectOpenedTechnologies" [imageSrc]="currentProjectOpenedImageSrc"
             [gitHubLink]="currentProjectOpenedGitHubLink" [projectLink]="currentProjectOpenedProjectLink"
+            [isBackend]="currentProjectOpenedIsBackend" [frontendGitHubLink]="currentProjectOpenedFrontendGitHubLink"
+            [backendGitHubLink]="currentProjectOpenedBackendGitHubLink"
             (updateParentVariables)="updateVariablesFromChild($event)">
         </app-overlay>
         <div class="content-wrapper-without-pop-ups">
