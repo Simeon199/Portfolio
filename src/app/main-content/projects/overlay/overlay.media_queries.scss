@@ -143,6 +143,11 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
             text-align: center;
         }
     }
+
+    .close-button-img {
+        position: absolute;
+        top: 0;
+    }
 }
 
 @include breakpoint.screen800 {
@@ -150,6 +155,10 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
     .overlay {
         overflow-y: scroll;
         overflow-x: hidden;
+    }
+
+    .all-images {
+        width: 80%;
     }
 }
 
@@ -178,7 +187,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
     }
 
     .all-images {
-        width: 100%;
+        width: 90%;
     }
 
     .next-project-image-section-responsive {
@@ -211,7 +220,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
 
     .content-box {
         overflow-y: auto;
-        justify-content: space-between;
+        // justify-content: space-between;
         padding: 8px;
 
         h1 {
@@ -286,7 +295,10 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
     }
 
     .next-project-image-section-responsive {
-        padding-right: 5%;
+        position: absolute;
+        align-self: center;
+        bottom: 16px;
+        right: 0;
     }
 
     .close-button-img {
