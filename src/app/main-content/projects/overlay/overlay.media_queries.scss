@@ -146,6 +146,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
         padding-right: 0;
         padding-top: 0;
         width: 100%;
+        margin-top: 32px;
     }
 }
 
@@ -281,6 +282,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
         gap: 12px;
         padding: 16px 0;
         align-items: center;
+        flex-direction: column;
     }
 
     a {
@@ -300,10 +302,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
     }
 
     .next-project-image-section-responsive {
-        position: absolute;
-        align-self: center;
-        bottom: 16px;
-        right: 0;
+        align-self: end;
     }
 
     .close-button-img {
