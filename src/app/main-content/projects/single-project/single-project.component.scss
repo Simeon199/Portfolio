@@ -34,8 +34,6 @@ $standardGreen: rgba(61, 207, 182, 1);
     background-color: $standardGreen;
 }
 
-// All media queries are listed here
-
 @include breakpoint.screen1350 {
     .single-project {
         font-size: 20px;
