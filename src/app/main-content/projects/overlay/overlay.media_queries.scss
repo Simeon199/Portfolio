@@ -308,6 +308,7 @@ $backgroundPattern: linear-gradient(55.22deg, #1C1C1C 36.26%, #08463B 93.28%);
     .close-button-img {
         padding-right: 0;
         padding-top: 0;
+        margin-top: clamp(32px, 35%, 160px);
     }
 }
 
