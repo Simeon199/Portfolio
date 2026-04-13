@@ -143,37 +143,6 @@
             "projectLink": "Not found",
             "gitHubLink": "Not found"
         },
-        "videoflix": {
-            "title": "Videoflix",
-            "projectImageSource": "../../../../assets/img/videoflix.png",
-            "description": "Bei diesem Projekt handelt es sich um ein mit Django REST Framework erstelltes Backend für Videostreaming. Es bietet Benutzerauthentifizierung, Video-Upload mit automatischer HLS-Konvertierung sowie adaptives Streaming mit variabler Bitrate in verschiedenen Auflösungen. Das entsprechende Frontend wurde durch das Team der Developer Akademie bereitgestellt.",
-            "technologyList": [
-                "Angular",
-                "|",
-                "TypeScript",
-                "|",
-                "Firebase",
-                "|",
-                "SCSS",
-                "|",
-                "HTML"
-            ],
-            "technologyImageIcons": [
-                "../../../../assets/img/angular-technology.svg",
-                "|",
-                "../../../../assets/img/typescript-technology.svg",
-                "|",
-                "../../../../assets/img/firebase-technology.svg",
-                "|",
-                "../../../../assets/img/css-technology.svg",
-                "|",
-                "../../../../assets/img/html-technology.svg"
-            ],
-            "projectIndex": 4,
-            "projectIndexAsString": "05",
-            "projectLink": "Not found",
-            "gitHubLink": "Not found"
-        },
         "whatIsProjectAbout": "Worum geht es in diesem Projekt?",
         "nextProject": "Nächstes Projekt"
     },
@@ -190,10 +159,6 @@
         "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
     },
     "coderr": {
-        "whatIsProjectAbout": "Worum geht es in diesem Problem?",
-        "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
-    },
-    "videoflix": {
         "whatIsProjectAbout": "Worum geht es in diesem Problem?",
         "content": "In Anlehnung an Slack bietet diese App eine benutzerfreundliche Plattform zur Optimierung der Teamkommunikation. Durch Echtzeitnachrichten und eine strukturierte Kanalorganisation wird der Austausch im Team spürbar vereinfacht."
     },

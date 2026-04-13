@@ -77,31 +77,5 @@ export const projectsData: projectsModel = {
         isBackend: true,
         frontendGitHubLink: 'https://github.com/Developer-Akademie-Backendkurs/project.Coderr',
         backendGitHubLink: 'https://github.com/Simeon199/Coderr'
-    },
-    videoflix: {
-        title: 'Videoflix',
-        projectImageSource: '../../../../assets/img/videoflix.png',
-        description: 'Bei diesem Projekt handelt es sich um ein mit Django REST Framework erstelltes Backend für Videostreaming. Es bietet Benutzerauthentifizierung, Video-Upload mit automatischer HLS-Konvertierung sowie adaptives Streaming mit variabler Bitrate in verschiedenen Auflösungen. Das entsprechende Frontend wurde durch das Team der Developer Akademie bereitgestellt.',
-        technologyList: ['HTML', '|', 'CSS', '|', 'JavaScript', '|', 'Django', '|', 'PostgreSQL', '|', 'Redis'],
-        technologyImageIcons: [
-            '../../../../assets/img/html-technology.svg',
-            '|',
-            '../../../../assets/img/css-technology.svg',
-            '|',
-            '../../../../assets/img/javascript-technology.svg',
-            '|',
-            '../../../../assets/img/django.svg',
-            '|',
-            '../../../../assets/img/postgreSQL.svg',
-            '|',
-            '../../../../assets/img/redis.svg'
-        ],
-        projectIndex: 4,
-        projectIndexAsString: '05',
-        projectLink: 'https://el-pollo-loco.simon-kiesner.de/index.html',
-        gitHubLink: 'https://github.com/Simeon199/Videoflix',
-        isBackend: true,
-        frontendGitHubLink: 'https://github.com/Developer-Akademie-Backendkurs/project.Videoflix',
-        backendGitHubLink: 'https://github.com/Simeon199/Videoflix'
     }
 }

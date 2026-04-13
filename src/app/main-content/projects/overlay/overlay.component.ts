@@ -91,8 +91,6 @@ export class OverlayComponent {
       return 'Coderr';
     } else if(key == 'kanmind'){
       return 'KanMind';
-    } else if(key == 'videoflix'){
-      return 'Videoflix';
     } else {
       return 'Error';
     }
@@ -107,8 +105,6 @@ export class OverlayComponent {
       return 'kanmind'; 
     } else if (key == 'Coderr') {
       return 'coderr';
-    } else if (key == 'Videoflix'){
-      return 'videoflix';
     } else {
       return 'Error';
     }

@@ -143,37 +143,6 @@
             "projectLink": "Not found",
             "gitHubLink": "Not found"
         },
-        "videoflix": {
-            "title": "Videoflix",
-            "projectImageSource": "../../../../assets/img/videoflix.png",
-            "description": "This project is a backend for video streaming built using the Django REST Framework. It offers user authentication, video upload with automatic HLS conversion, and adaptive streaming with variable bitrates in various resolutions. The corresponding frontend was provided by the Developer Academy team.",
-            "technologyList": [
-                "Angular",
-                "|",
-                "TypeScript",
-                "|",
-                "Firebase",
-                "|",
-                "SCSS",
-                "|",
-                "HTML"
-            ],
-            "technologyImageIcons": [
-                "../../../../assets/img/angular-technology.svg",
-                "|",
-                "../../../../assets/img/typescript-technology.svg",
-                "|",
-                "../../../../assets/img/firebase-technology.svg",
-                "|",
-                "../../../../assets/img/css-technology.svg",
-                "|",
-                "../../../../assets/img/html-technology.svg"
-            ],
-            "projectIndex": 4,
-            "projectIndexAsString": "05",
-            "projectLink": "Not found",
-            "gitHubLink": "Not found"
-        },
         "whatIsProjectAbout": "What's this project about?",
         "nextProject": "Next Project"
     },
@@ -192,10 +161,6 @@
     "coderr": {
         "whatIsProjectAbout": "What's this project about?",
         "content": "Coderr is a backend for a platform for freelance developers, designed as a small Fiverr clone. It builds on an existing frontend provided by the Developer Academy team and fully supports CRUD operations."
-    },
-    "videoflix": {
-        "whatIsProjectAbout": "What's this project about?",
-        "content": "This project is a backend for video streaming built using the Django REST Framework. It offers user authentication, video upload with automatic HLS conversion, and adaptive streaming with variable bitrates in various resolutions. The corresponding frontend was provided by the Developer Academy team."
     },
     "recencies": {
         "title": "What my colleagues say about me",
