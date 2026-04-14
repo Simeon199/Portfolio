@@ -13,8 +13,8 @@
                 <h2>Portfolio</h2>
                 <h2>{{"featuredProjects.h2First" | translate}}</h2>
                 <div class="span-about-projects">
-                    <span>{{"featuredProjects.spanFirst" | translate}}</span>
-                </div>
+                    <span>{{"featuredProjects.spanFirst" | translate}}<br><br><a class="github-link" [href]="'featuredProjects.githubLink' | translate" target="_blank" rel="noopener noreferrer">{{"featuredProjects.githubLink" | translate}}</a></span>
+                </div><br>
             </div>
             <div class="collection-of-single-projects" *ngFor="let singleProject of projectsArray">
                 <app-single-project [index]='singleProject.projectIndexAsString' [title]="singleProject.title"

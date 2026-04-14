@@ -8,6 +8,15 @@ section {
     width: 100%;
 }
 
+.github-link {
+    color: $standardGreen;
+    text-decoration: none;
+}
+
+.github-link:hover {
+    font-weight: bold;
+}
+
 .projects {
     display: flex;
     justify-content: space-between;

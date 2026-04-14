@@ -32,7 +32,8 @@
     },
     "featuredProjects": {
         "h2First": "Vorgestelle Projekte",
-        "spanFirst": "Entdecken Sie hier eine Auswahl meiner Arbeiten. Interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen."
+        "spanFirst": "Entdecken Sie hier eine Auswahl meiner Arbeiten. Weitere Projekte können unter meinem Github Account eingesehen werden. Schauen Sie gerne vorbei: ",
+        "githubLink": "https://github.com/Simeon199/"
     },
     "allProjectData": {
         "join": {

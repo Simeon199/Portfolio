@@ -32,7 +32,8 @@
     },
     "featuredProjects": {
         "h2First": "Featured Projects",
-        "spanFirst": "Discover a selection of my work here. Interact with the projects to see my skills in action."
+        "spanFirst": "Discover a selection of my work here. You can view my other projects on my GitHub account. Feel free to check it out: ",
+        "githubLink": "https://github.com/Simeon199/"
     },
     "allProjectData": {
         "join": {
