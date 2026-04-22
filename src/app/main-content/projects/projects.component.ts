@@ -99,14 +99,16 @@ export class ProjectsComponent {
 
   setHoveredProjectLocation(currentHoveredProject: string) {
     if (currentHoveredProject == "Join") {
-    this.hoveredProjectLocation = "align-self: flex-start";
+      this.hoveredProjectLocation = "align-self: flex-start";
     } else if (currentHoveredProject == "El Pollo Loco") {
       this.hoveredProjectLocation = "align-self: center";
     } else if (currentHoveredProject == "KanMind") {
-      this.hoveredProjectLocation = "align-self: flex-end";
+      this.hoveredProjectLocation = "align-self: center";
     } else if (currentHoveredProject == "Coderr") {
-      this.hoveredProjectLocation = "align-self: flex-end";
-    } 
+      this.hoveredProjectLocation = "align-self: center";
+    } else if(currentHoveredProject == 'Videoflix') {
+      this.hoveredProjectLocation == "align-self: flex-end";
+    }
   }
 
 

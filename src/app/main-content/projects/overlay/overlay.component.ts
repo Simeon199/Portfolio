@@ -87,10 +87,12 @@ export class OverlayComponent {
       return 'Join';
     } else if (key == 'elPolloLoco') {
       return 'El Pollo Loco';
-    } else if(key == 'coderr'){
-      return 'Coderr';
     } else if(key == 'kanmind'){
       return 'KanMind';
+    } else if(key == 'coderr'){
+      return 'Coderr';
+    } else if(key == 'videoflix'){
+      return 'Videoflix'
     } else {
       return 'Error';
     }
@@ -101,10 +103,12 @@ export class OverlayComponent {
       return 'join';
     } else if (key == 'El Pollo Loco') {
       return 'elPolloLoco';
-    } else if (key == 'KanMind'){
-      return 'kanmind'; 
     } else if (key == 'Coderr') {
       return 'coderr';
+    } else if (key == 'KanMind'){
+      return 'kanmind'; 
+    } else if(key == 'Videoflix'){
+      return 'videoflix'
     } else {
       return 'Error';
     }
