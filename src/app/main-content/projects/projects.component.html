@@ -16,12 +16,14 @@
                     <span>{{"featuredProjects.spanFirst" | translate}}<br><br><a class="github-link" [href]="'featuredProjects.githubLink' | translate" target="_blank" rel="noopener noreferrer">{{"featuredProjects.githubLink" | translate}}</a></span>
                 </div><br>
             </div>
-            <div class="collection-of-single-projects" *ngFor="let singleProject of projectsArray">
-                <app-single-project [index]='singleProject.projectIndexAsString' [title]="singleProject.title"
-                    [technologies]="singleProject.technologyList"
-                    (mouseenter)="onMouseEnter(singleProject.title, singleProject.projectImageSource, singleProject.projectIndexAsString)"
-                    (mouseleave)="onMouseLeave()" (click)="openSingleProjectInBigPopUp(singleProject.title)">
-                </app-single-project>
+            <div class="project-collection-wrapper">
+                <div class="collection-of-single-projects" *ngFor="let singleProject of projectsArray">
+                    <app-single-project [index]='singleProject.projectIndexAsString' [title]="singleProject.title"
+                        [technologies]="singleProject.technologyList"
+                        (mouseenter)="onMouseEnter(singleProject.title, singleProject.projectImageSource, singleProject.projectIndexAsString)"
+                        (mouseleave)="onMouseLeave()" (click)="openSingleProjectInBigPopUp(singleProject.title)">
+                    </app-single-project>
+                </div>
             </div>
         </div>
         <div class="text-pop-up" [style]="returnRightLocation(currentHoveredProject)">
