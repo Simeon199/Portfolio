@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ViewChildren, QueryList, ElementRef } from '@angular/core';
 import { SingleProjectComponent } from './single-project/single-project.component';
 import { SingleProjectFadedInComponent } from './single-project-faded-in/single-project-faded-in.component';
 import { OverlayComponent } from './overlay/overlay.component';
@@ -25,9 +25,13 @@ import { SharedService } from '../../shared.service';
 
 export class ProjectsComponent {
 
+  @ViewChild('projectCollectionWrapper') projectCollectionWrapper!: ElementRef;
+  @ViewChildren('projectElement') projectElements!: QueryList<ElementRef>;
+
   currentHoveredProject: string = '';
   currentHoveredProjectImageSrc: string = '';
   currentHoveredProjectIndex: string = '';
+  currentHoveredProjectElementIndex: number = -1;
   hoveredProjectLocation = '';
   currentProjectOpened: string = '';
   currentProjectOpenedDescription: string = '';
@@ -75,11 +79,12 @@ export class ProjectsComponent {
     this.currentProjectOpenedBackendGitHubLink = updatedValues.currentProjectOpenedBackendGitHubLink;
   }
 
-  onMouseEnter(projectname: string, projectImageSource: string, projectIndex: string) {
+  onMouseEnter(projectname: string, projectImageSource: string, projectIndex: string, elementIndex: number) {
     if (window.innerWidth > 1350) {
       this.currentHoveredProject = projectname;
       this.currentHoveredProjectImageSrc = projectImageSource;
       this.currentHoveredProjectIndex = projectIndex;
+      this.currentHoveredProjectElementIndex = elementIndex;
     }
   }
 
@@ -87,6 +92,7 @@ export class ProjectsComponent {
     if (window.innerWidth > 1350) {
       this.currentHoveredProject = '';
       this.currentHoveredProjectImageSrc = '';
+      this.currentHoveredProjectElementIndex = -1;
     }
   }
 
@@ -98,19 +104,36 @@ export class ProjectsComponent {
   }
 
   setHoveredProjectLocation(currentHoveredProject: string) {
-    if (currentHoveredProject == "Join") {
-      this.hoveredProjectLocation = "align-self: flex-start";
-    } else if (currentHoveredProject == "El Pollo Loco") {
-      this.hoveredProjectLocation = "align-self: center";
-    } else if (currentHoveredProject == "KanMind") {
-      this.hoveredProjectLocation = "align-self: center";
-    } else if (currentHoveredProject == "Coderr") {
-      this.hoveredProjectLocation = "align-self: center";
-    } else if(currentHoveredProject == 'Videoflix') {
-      this.hoveredProjectLocation == "align-self: flex-end";
-    }
+    if (!this.isProjectHovered()) return;
+    const projectCenter = this.getProjectCenterRelativeToWrapper();
+    const alignment = this.getAlignmentForPosition(projectCenter, this.getWrapperHeight());
+    this.hoveredProjectLocation = `align-self: ${alignment}`;
   }
 
+  private isProjectHovered(): boolean {
+    return !!this.projectCollectionWrapper && this.currentHoveredProjectElementIndex >= 0 && this.getProjectElement() !== undefined;
+  }
+
+  private getProjectElement(): ElementRef | undefined {
+    return this.projectElements?.toArray()[this.currentHoveredProjectElementIndex];
+  }
+
+  private getProjectCenterRelativeToWrapper(): number {
+    const wrapperRect = this.projectCollectionWrapper.nativeElement.getBoundingClientRect();
+    const projectRect = this.getProjectElement()!.nativeElement.getBoundingClientRect();
+    return (projectRect.top - wrapperRect.top) + (projectRect.height / 2);
+  }
+
+  private getWrapperHeight(): number {
+    return this.projectCollectionWrapper.nativeElement.getBoundingClientRect().height;
+  }
+
+  private getAlignmentForPosition(projectCenter: number, wrapperHeight: number): string {
+    const thirdHeight = wrapperHeight / 3;
+    if (projectCenter < thirdHeight) return "flex-start";
+    if (projectCenter < 2 * thirdHeight) return "center";
+    return "flex-end";
+  }
 
   openSingleProjectInBigPopUp(projectName: string) {
     this.currentProjectOpened = projectName;

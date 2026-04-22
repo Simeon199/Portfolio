@@ -16,11 +16,11 @@
                     <span>{{"featuredProjects.spanFirst" | translate}}<br><br><a class="github-link" [href]="'featuredProjects.githubLink' | translate" target="_blank" rel="noopener noreferrer">{{"featuredProjects.githubLink" | translate}}</a></span>
                 </div><br>
             </div>
-            <div class="project-collection-wrapper">
-                <div class="collection-of-single-projects" *ngFor="let singleProject of projectsArray">
+            <div class="project-collection-wrapper" #projectCollectionWrapper>
+                <div class="collection-of-single-projects" *ngFor="let singleProject of projectsArray; let i = index" #projectElement>
                     <app-single-project [index]='singleProject.projectIndexAsString' [title]="singleProject.title"
                         [technologies]="singleProject.technologyList"
-                        (mouseenter)="onMouseEnter(singleProject.title, singleProject.projectImageSource, singleProject.projectIndexAsString)"
+                        (mouseenter)="onMouseEnter(singleProject.title, singleProject.projectImageSource, singleProject.projectIndexAsString, i)"
                         (mouseleave)="onMouseLeave()" (click)="openSingleProjectInBigPopUp(singleProject.title)">
                     </app-single-project>
                 </div>
