@@ -26,6 +26,7 @@ import { SharedService } from '../../shared.service';
 export class ProjectsComponent {
 
   @ViewChild('projectCollectionWrapper') projectCollectionWrapper!: ElementRef;
+  @ViewChild('contentWrapperWithoutPopUps') contentWrapperWithoutPopUps!: ElementRef;
   @ViewChildren('projectElement') projectElements!: QueryList<ElementRef>;
 
   currentHoveredProject: string = '';
@@ -130,7 +131,7 @@ export class ProjectsComponent {
 
   private getAlignmentForPosition(projectCenter: number, wrapperHeight: number): string {
     const thirdHeight = wrapperHeight / 3;
-    if (projectCenter < thirdHeight) return "flex-start";
+    if (projectCenter < thirdHeight) return "center";
     if (projectCenter < 2 * thirdHeight) return "center";
     return "flex-end";
   }
