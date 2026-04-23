@@ -83,7 +83,7 @@ export class AppComponent implements AfterViewInit, OnDestroy {
     setTimeout(() => {
       AOS.refresh();
       this.viewportScroller.setOffset([0, this.headerHeight]);
-    }, 100);
+    }, 400);
   }
 
   private setupMutationObserver() {
