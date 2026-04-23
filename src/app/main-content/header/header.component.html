@@ -14,12 +14,12 @@
                 (click)="setBigOverlayHeaderBoolean(); showDropdown(); stopEventPropagation($event)" alt="menu-icon">
             <div class="dropdown-responsive" *ngIf="isDropdownMenuActivated" (click)="stopEventPropagation($event)">
 
-                <a (click)="scrollToFragment('about-me'); isOnHomePageService.toggleLanguageSelectionDisplay()"
+                <a (click)="scrollToFragment('about-me'); isOnHomePageService.toggleLanguageSelectionDisplay(); deactivateOverlayAndHideDropdown()"
                     [routerLink]="['/']" fragment="about-me">{{"header.navbarTitleFirst" |
                     translate}}</a>
-                <a (click)="scrollToFragment('skills'); isOnHomePageService.toggleLanguageSelectionDisplay()"
+                <a (click)="scrollToFragment('skills'); isOnHomePageService.toggleLanguageSelectionDisplay(); deactivateOverlayAndHideDropdown()"
                     [routerLink]="['/']" fragment="skills">{{"header.navbarTitleSecond" | translate}}</a>
-                <a (click)="scrollToFragment('projects'); isOnHomePageService.toggleLanguageSelectionDisplay()"
+                <a (click)="scrollToFragment('projects'); isOnHomePageService.toggleLanguageSelectionDisplay(); deactivateOverlayAndHideDropdown()"
                     [routerLink]="['/']" fragment="projects">{{"header.navbarTitleThird" |
                     translate}}</a>
 
