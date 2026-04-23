@@ -85,6 +85,7 @@ app-single-project {
 
 .text-pop-up {
     display: flex;
+    margin-left: clamp(15px, 3vw, 30px);
 
     img {
         width: 320px;

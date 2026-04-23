@@ -81,7 +81,7 @@ export class ProjectsComponent {
   }
 
   onMouseEnter(projectname: string, projectImageSource: string, projectIndex: string, elementIndex: number) {
-    if (window.innerWidth > 1350) {
+    if (window.innerWidth > 1450) {
       this.currentHoveredProject = projectname;
       this.currentHoveredProjectImageSrc = projectImageSource;
       this.currentHoveredProjectIndex = projectIndex;
@@ -90,7 +90,7 @@ export class ProjectsComponent {
   }
 
   onMouseLeave() {
-    if (window.innerWidth > 1350) {
+    if (window.innerWidth > 1450) {
       this.currentHoveredProject = '';
       this.currentHoveredProjectImageSrc = '';
       this.currentHoveredProjectElementIndex = -1;
