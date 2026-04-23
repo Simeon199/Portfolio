@@ -72,20 +72,8 @@ export const technologyListData: technologyListModel = {
             imageSrc: '../../../../assets/img/django.svg'
         },
         {
-            name: 'Flask',
-            imageSrc: '../../../../assets/img/flask.svg'
-        },
-        {
-            name: 'Heroku',
-            imageSrc: '../../../../assets/img/heroku.svg'
-        },
-        {
             name: 'Cloud',
             imageSrc: '../../../../assets/img/cloud.svg'
         },
-        {
-            name: 'RxJS',
-            imageSrc: '../../../../assets/img/RxJs.svg'
-        }
     ]
 };
