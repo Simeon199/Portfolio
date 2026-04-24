@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+[id] {
+    scroll-margin-top: calc(var(--header-height));
+}
+
 html, body {
     overflow-x: hidden;
 }

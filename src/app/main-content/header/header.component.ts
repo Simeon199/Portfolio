@@ -46,7 +46,10 @@ export class HeaderComponent implements OnInit {
 
   scrollToFragment(fragment: string) {
     this.router.navigate(['/'], { fragment }).then(() => {
-      this.viewportScroller.scrollToAnchor(fragment);
+      const element = document.getElementById(fragment);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
     })
   }
 

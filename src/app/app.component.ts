@@ -11,7 +11,6 @@ import { IsOnHomepageService } from './is-on-homepage.service';
 import { PopupComponent } from './main-content/popup/popup.component';
 import AOS from 'aos';
 import { filter } from 'rxjs';
-import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-root',
@@ -82,7 +81,6 @@ export class AppComponent implements AfterViewInit, OnDestroy {
   private setupRouterEventListener() {
     setTimeout(() => {
       AOS.refresh();
-      this.viewportScroller.setOffset([0, this.headerHeight]);
     }, 400);
   }
 
